@@ -1,0 +1,11 @@
+#Covid 19 X Ray Image Classification
+Steps Followed:
+1. Downloaded kaggle dataset of 10000 images of images of Covid 19 and normal X Ray
+2. Printed the metadata information
+3. Splitted into train, test and validation set
+4. Loaded pre trained Vgg16 model
+5. Created last Dense layer using sigmoid activation
+6. Trained the model with loss of binary cross entropy
+7. Predicted on the random images
+8. Classification matrix and accuracy of 80 %
+9. GradCAM to visualise the covid spot in the images
